@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 -->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-370895%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-187471%20lines%20of%20code-blue)
 
 **I'm an Early 🐤** 
 
@@ -36,13 +36,15 @@ Here are some ideas to get you started:
 
 ```text
 💬 Programming Languages: 
-No Activity Tracked This Week
+Go                       16 mins             ██████████████████░░░░░░░   74.5% 
+SQL                      4 mins              █████░░░░░░░░░░░░░░░░░░░░   21.68% 
+HTML                     0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   3.82%
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+nazwa                    21 mins             █████████████████████████   100.0%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    21 mins             █████████████████████████   100.0%
 
 ```
 
