@@ -24,6 +24,6 @@ jobs:
           SHOW_PROJECTS: "true"
           SHOW_TIMEZONE: "false"
           SHOW_EDITORS: "false"
-          SHOW_LANGUAGE_PER_REPO: "true"
+          SHOW_LANGUAGE_PER_REPO: "false"
           SHOW_SHORT_INFO: "false"
           SHOW_LOC_CHART: "false"
