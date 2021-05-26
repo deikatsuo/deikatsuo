@@ -36,13 +36,14 @@ Here are some ideas to get you started:
 
 ```text
 💬 Programming Languages: 
-No Activity Tracked This Week
+Go                       10 mins             ███████████████████████░░   93.0% 
+SQL                      0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   7.0%
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+nazwa                    11 mins             █████████████████████████   100.0%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    11 mins             █████████████████████████   100.0%
 
 ```
 
