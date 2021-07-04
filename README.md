@@ -19,7 +19,7 @@ Here are some ideas to get you started:
 -->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-16169%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-16133%20lines%20of%20code-blue)
 
 **I'm an Early 🐤** 
 
@@ -49,5 +49,5 @@ Linux                    2 hrs 22 mins       ███████████�
 ```
 
 
- Last Updated on 03/07/2021
+ Last Updated on 04/07/2021
 <!--END_SECTION:waka-->
