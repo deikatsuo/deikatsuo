@@ -19,14 +19,14 @@ Here are some ideas to get you started:
 -->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-16051%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-16149%20lines%20of%20code-blue)
 
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning    45 commits     ████████░░░░░░░░░░░░░░░░░   34.35% 
+🌞 Morning    44 commits     ████████░░░░░░░░░░░░░░░░░   33.59% 
 🌆 Daytime    57 commits     ███████████░░░░░░░░░░░░░░   43.51% 
-🌃 Evening    26 commits     █████░░░░░░░░░░░░░░░░░░░░   19.85% 
+🌃 Evening    27 commits     █████░░░░░░░░░░░░░░░░░░░░   20.61% 
 🌙 Night      3 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.29%
 
 ```
@@ -49,5 +49,5 @@ Linux                    1 hr 24 mins        ███████████�
 ```
 
 
- Last Updated on 29/07/2021
+ Last Updated on 30/07/2021
 <!--END_SECTION:waka-->
