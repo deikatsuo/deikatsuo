@@ -36,18 +36,16 @@ Here are some ideas to get you started:
 
 ```text
 💬 Programming Languages: 
-Go                       1 hr 8 mins         ████████████████████░░░░░   81.69% 
-HTML                     13 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.61% 
-SQL                      1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   1.7%
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-nazwa                    1 hr 24 mins        █████████████████████████   100.0%
+No Activity Tracked This Week
 
 💻 Operating System: 
-Linux                    1 hr 24 mins        █████████████████████████   100.0%
+No Activity Tracked This Week
 
 ```
 
 
- Last Updated on 17/08/2021
+ Last Updated on 18/08/2021
 <!--END_SECTION:waka-->
