@@ -36,16 +36,19 @@ Here are some ideas to get you started:
 
 ```text
 💬 Programming Languages: 
-No Activity Tracked This Week
+Go                       52 mins             ████████████░░░░░░░░░░░░░   49.32% 
+HTML                     49 mins             ███████████░░░░░░░░░░░░░░   45.92% 
+JSON                     5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   4.76%
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+nazwa                    1 hr 42 mins        ███████████████████████░░   95.24% 
+Unknown Project          5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   4.76%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    1 hr 47 mins        █████████████████████████   100.0%
 
 ```
 
 
- Last Updated on 28/10/2021
+ Last Updated on 29/10/2021
 <!--END_SECTION:waka-->
