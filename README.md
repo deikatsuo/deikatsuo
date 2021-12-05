@@ -19,13 +19,13 @@ Here are some ideas to get you started:
 -->
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-98979%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-81811%20lines%20of%20code-blue)
 
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning    40 commits     ███████░░░░░░░░░░░░░░░░░░   31.25% 
-🌆 Daytime    59 commits     ███████████░░░░░░░░░░░░░░   46.09% 
+🌞 Morning    41 commits     ████████░░░░░░░░░░░░░░░░░   32.03% 
+🌆 Daytime    58 commits     ███████████░░░░░░░░░░░░░░   45.31% 
 🌃 Evening    26 commits     █████░░░░░░░░░░░░░░░░░░░░   20.31% 
 🌙 Night      3 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   2.34%
 
@@ -36,16 +36,17 @@ Here are some ideas to get you started:
 
 ```text
 💬 Programming Languages: 
-No Activity Tracked This Week
+HTML                     31 mins             ████████████████████████░   96.69% 
+SQL                      1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   3.31%
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+nazwa                    32 mins             █████████████████████████   100.0%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    32 mins             █████████████████████████   100.0%
 
 ```
 
 
- Last Updated on 30/11/2021
+ Last Updated on 05/12/2021
 <!--END_SECTION:waka-->
