@@ -36,16 +36,19 @@ Here are some ideas to get you started:
 
 ```text
 💬 Programming Languages: 
-No Activity Tracked This Week
+V                        22 mins             ███████████████████████░░   93.89% 
+SQL                      0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   3.68% 
+Modula-2                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   2.43%
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+Nazwa Desktop            23 mins             ████████████████████████░   96.32% 
+nazwa                    0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   3.68%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Linux                    24 mins             █████████████████████████   100.0%
 
 ```
 
 
- Last Updated on 14/12/2021
+ Last Updated on 15/12/2021
 <!--END_SECTION:waka-->
