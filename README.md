@@ -23,31 +23,6 @@ Here are some ideas to get you started:
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-82%20Thousand%20lines%20of%20code-blue)
 
-**I'm an Early 🐤** 
 
-```text
-🌞 Morning    34 commits     ████████░░░░░░░░░░░░░░░░░   34.0% 
-🌆 Daytime    42 commits     ██████████░░░░░░░░░░░░░░░   42.0% 
-🌃 Evening    23 commits     █████░░░░░░░░░░░░░░░░░░░░   23.0% 
-🌙 Night      1 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   1.0%
-
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-
-```
-
-
- Last Updated on 25/09/2022 18:50:18 UTC
+ Last Updated on 26/09/2022 18:54:19 UTC
 <!--END_SECTION:waka-->
