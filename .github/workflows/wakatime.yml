@@ -2,8 +2,9 @@ name: Waka Readme
 
 on:
   schedule:
-    # Runs at 12am IST
+    # Berjalan otomatis setiap jam 01:30 WIB
     - cron: '30 18 * * *'
+  workflow_dispatch: # PENTING: Agar tombol "Run workflow" muncul untuk ngetes sekarang
 
 jobs:
   update-readme:
@@ -13,8 +14,8 @@ jobs:
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          API_BASE_URL: "https://wakapi.dev/api"
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          API_BASE_URL: "https://wakapi.dev/api" # Menggunakan server wakapi.dev
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Token otomatis bawaan GitHub yang lebih aman
           LOCALE: "in_ID"
           SHOW_LINES_OF_CODE: "true"
           SHOW_COMMIT: "true"
