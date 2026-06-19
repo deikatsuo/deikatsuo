@@ -14,7 +14,7 @@ jobs:
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          API_BASE_URL: "https://wakapi.dev/api" # Menggunakan server wakapi.dev
+          WAKATIME_API_URL: "https://wakapi.dev/api" # Menggunakan server wakapi.dev
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Token otomatis bawaan GitHub yang lebih aman
           LOCALE: "in_ID"
           SHOW_LINES_OF_CODE: "true"
