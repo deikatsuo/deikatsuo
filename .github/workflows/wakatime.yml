@@ -4,28 +4,18 @@ on:
   schedule:
     # Berjalan otomatis setiap jam 01:30 WIB
     - cron: '30 18 * * *'
-  workflow_dispatch: # PENTING: Agar tombol "Run workflow" muncul untuk ngetes sekarang
+  workflow_dispatch: # Supaya bisa di-klik manual kapan saja
 
 jobs:
   update-readme:
-    name: Update Readme with Metrics
+    name: Update WakaReadme
     runs-on: ubuntu-latest
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          WAKATIME_API_URL: "https://wakapi.dev/api" # Menggunakan server wakapi.dev
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Token otomatis bawaan GitHub yang lebih aman
-          LOCALE: "in_ID"
-          SHOW_LINES_OF_CODE: "true"
-          SHOW_COMMIT: "true"
-          SHOW_PROFILE_VIEWS: "false"
-          SHOW_DAYS_OF_WEEK: "false"
-          SHOW_LANGUAGE: "true"
-          SHOW_OS: "true"
-          SHOW_PROJECTS: "true"
-          SHOW_TIMEZONE: "false"
-          SHOW_EDITORS: "true"
-          SHOW_LANGUAGE_PER_REPO: "false"
-          SHOW_SHORT_INFO: "false"
-          SHOW_LOC_CHART: "false"
+          API_BASE_URL: "https://wakapi.dev/api/v1" # Endpoint v1 untuk Wakapi
+          REPOSITORY: ${{ github.repository }}
+          SECTION_NAME: "waka"
+          SHOW_TITLE: true
+          BLOCKS: "█▓░"
