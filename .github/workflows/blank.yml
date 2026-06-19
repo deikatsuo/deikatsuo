@@ -13,6 +13,7 @@ jobs:
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          API_BASE_URL: "https://wakapi.dev/api"
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           LOCALE: "in_ID"
           SHOW_LINES_OF_CODE: "true"
