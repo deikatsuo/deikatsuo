@@ -32,13 +32,12 @@ jobs:
           import json, requests, os
           from datetime import datetime
           
-          # Ambil data dari Wakapi dengan api_key sebagai query parameter
+          # Fetch data from Wakapi
           api_key = os.environ['WAKAPI_API_KEY']
           url = f'https://wakapi.dev/api/v1/users/current/stats/last_30_days?api_key={api_key}'
           
           response = requests.get(url)
           
-          # Cek response
           if response.status_code != 200:
               print(f'Error: API returned status {response.status_code}')
               print(f'Response: {response.text}')
@@ -46,49 +45,52 @@ jobs:
           
           data = response.json()['data']
           
-          # Format statistik
+          # Format statistics with professional dashboard style
           stats = f'''
-          ### 📊 Statistik Coding (30 Hari Terakhir)
+  ## 📊 Development Analytics
+  
+  > *Comprehensive coding statistics for the past 30 days*
+  
+  ### ⏱️ Time Overview
+  | Metric | Value |
+  |--------|-------|
+  | **Total Time** | {data['human_readable_total']} |
+  | **Daily Average** | {data['human_readable_daily_average']} |
+  | **Days Tracked** | {data['days_including_holidays']} |
+  
+  ### 💻 Editor Usage
+  {chr(10).join([f'| {i+1}. {e["name"]} | {e["text"]} | {e["percent"]:.1f}% |' for i, e in enumerate(data['editors'][:5])])}
+  
+  ### 🖥️ Operating Systems
+  {chr(10).join([f'| {i+1}. {o["name"]} | {o["text"]} | {o["percent"]:.1f}% |' for i, o in enumerate(data['operating_systems'][:5])])}
+  
+  ### 📝 Programming Languages
+  {chr(10).join([f'| {i+1}. {l["name"]} | {l["text"]} | {l["percent"]:.1f}% |' for i, l in enumerate(data['languages'][:8])])}
+  
+  ### 📂 Activity Categories
+  {chr(10).join([f'| {i+1}. {c["name"]} | {c["text"]} | {c["percent"]:.1f}% |' for i, c in enumerate(data['categories'][:5])])}
+  
+  ---
+  *Last Updated: {datetime.now().strftime('%B %d, %Y at %H:%M:%S %Z')}*
+  '''
           
-          - **Total Waktu**: {data['human_readable_total']}
-          - **Rata-rata Harian**: {data['human_readable_daily_average']}
-          
-          #### 💻 Editor Teratas
-          {chr(10).join([f'  - {e[\"name\"]}: {e[\"text\"]} ({e[\"percent\"]:.1f}%)' for e in data['editors'][:3]])}
-          
-          #### 🖥️ OS Teratas
-          {chr(10).join([f'  - {o[\"name\"]}: {o[\"text\"]} ({o[\"percent\"]:.1f}%)' for o in data['operating_systems'][:3]])}
-          
-          #### 📝 Bahasa Pemrograman Teratas
-          {chr(10).join([f'  - {l[\"name\"]}: {l[\"text\"]} ({l[\"percent\"]:.1f}%)' for l in data['languages'][:5]])}
-          
-          #### 📁 Proyek Teratas
-          {chr(10).join([f'  - {p[\"name\"]}: {p[\"text\"]} ({p[\"percent\"]:.1f}%)' for p in data['projects'][:3]])}
-          
-          ---
-          *Diperbarui: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}*
-          '''
-          
-          # Baca README saat ini
+          # Read current README
           with open('README.md', 'r') as f:
               readme = f.read()
           
-          # Cari section WAKAPI_STATS dan ganti
+          # Replace content between tags
           start_tag = '<!-- WAKAPI_STATS_START -->'
           end_tag = '<!-- WAKAPI_STATS_END -->'
           
           if start_tag in readme and end_tag in readme:
-              # Ganti konten di antara tag
               new_readme = readme.split(start_tag)[0] + start_tag + stats + end_tag + readme.split(end_tag)[1]
           else:
-              # Tambahkan section baru
               new_readme = readme + f'\n\n{start_tag}\n{stats}\n{end_tag}'
           
-          # Tulis ulang README
           with open('README.md', 'w') as f:
               f.write(new_readme)
           
-          print('README updated successfully!')
+          print('README updated successfully with professional statistics!')
           "
       
       - name: Commit changes
@@ -96,5 +98,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || git commit -m "Update Wakapi stats"
+          git diff --staged --quiet || git commit -m "Update professional Wakapi statistics"
           git push
