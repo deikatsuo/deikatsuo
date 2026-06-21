@@ -34,7 +34,7 @@ jobs:
           
           # Fetch data from Wakapi
           api_key = os.environ['WAKAPI_API_KEY']
-          url = f'https://wakapi.dev/api/v1/users/current/stats/last_30_days?api_key={api_key}'
+          url = f'https://wakapi.dev/api/v1/users/current/stats/last_year?api_key={api_key}'
           
           response = requests.get(url)
           
@@ -49,7 +49,7 @@ jobs:
           stats = f'''
           ## 📊 Development Analytics
           
-          > *Comprehensive coding statistics for the past 30 days*
+          > *Comprehensive coding statistics for the past year*
           
           ### ⏱️ Time Overview
           | Metric | Value |
