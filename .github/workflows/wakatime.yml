@@ -59,16 +59,24 @@ jobs:
   | **Days Tracked** | {data['days_including_holidays']} |
   
   ### 💻 Editor Usage
-  {chr(10).join([f'| {i+1}. {e["name"]} | {e["text"]} | {e["percent"]:.1f}% |' for i, e in enumerate(data['editors'][:5])])}
+  | Rank | Editor | Time | Percentage |
+  |------|--------|------|------------|
+  {chr(10).join([f'| {i+1}. | {e["name"]} | {e["text"]} | {e["percent"]:.1f}% |' for i, e in enumerate(data['editors'][:5])])}
   
   ### 🖥️ Operating Systems
-  {chr(10).join([f'| {i+1}. {o["name"]} | {o["text"]} | {o["percent"]:.1f}% |' for i, o in enumerate(data['operating_systems'][:5])])}
+  | Rank | OS | Time | Percentage |
+  |------|----|------|------------|
+  {chr(10).join([f'| {i+1}. | {o["name"]} | {o["text"]} | {o["percent"]:.1f}% |' for i, o in enumerate(data['operating_systems'][:5])])}
   
   ### 📝 Programming Languages
-  {chr(10).join([f'| {i+1}. {l["name"]} | {l["text"]} | {l["percent"]:.1f}% |' for i, l in enumerate(data['languages'][:8])])}
+  | Rank | Language | Time | Percentage |
+  |------|----------|------|------------|
+  {chr(10).join([f'| {i+1}. | {l["name"]} | {l["text"]} | {l["percent"]:.1f}% |' for i, l in enumerate(data['languages'][:8])])}
   
   ### 📂 Activity Categories
-  {chr(10).join([f'| {i+1}. {c["name"]} | {c["text"]} | {c["percent"]:.1f}% |' for i, c in enumerate(data['categories'][:5])])}
+  | Rank | Category | Time | Percentage |
+  |------|----------|------|------------|
+  {chr(10).join([f'| {i+1}. | {c["name"]} | {c["text"]} | {c["percent"]:.1f}% |' for i, c in enumerate(data['categories'][:5])])}
   
   ---
   *Last Updated: {datetime.now().strftime('%B %d, %Y at %H:%M:%S %Z')}*
