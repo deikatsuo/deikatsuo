@@ -28,7 +28,7 @@ jobs:
         env:
           WAKAPI_API_KEY: ${{ secrets.WAKAPI_API_KEY }}
         run: |
-          python -c "
+          python << 'EOF'
           import json, requests, os
           from datetime import datetime
           
@@ -47,40 +47,56 @@ jobs:
           
           # Format statistics with professional dashboard style
           stats = f'''
-  ## 📊 Development Analytics
-  
-  > *Comprehensive coding statistics for the past 30 days*
-  
-  ### ⏱️ Time Overview
-  | Metric | Value |
-  |--------|-------|
-  | **Total Time** | {data['human_readable_total']} |
-  | **Daily Average** | {data['human_readable_daily_average']} |
-  | **Days Tracked** | {data['days_including_holidays']} |
-  
-  ### 💻 Editor Usage
-  | Rank | Editor | Time | Percentage |
-  |------|--------|------|------------|
-  {chr(10).join([f'| {i+1}. | {e["name"]} | {e["text"]} | {e["percent"]:.1f}% |' for i, e in enumerate(data['editors'][:5])])}
-  
-  ### 🖥️ Operating Systems
-  | Rank | OS | Time | Percentage |
-  |------|----|------|------------|
-  {chr(10).join([f'| {i+1}. | {o["name"]} | {o["text"]} | {o["percent"]:.1f}% |' for i, o in enumerate(data['operating_systems'][:5])])}
-  
-  ### 📝 Programming Languages
-  | Rank | Language | Time | Percentage |
-  |------|----------|------|------------|
-  {chr(10).join([f'| {i+1}. | {l["name"]} | {l["text"]} | {l["percent"]:.1f}% |' for i, l in enumerate(data['languages'][:8])])}
-  
-  ### 📂 Activity Categories
-  | Rank | Category | Time | Percentage |
-  |------|----------|------|------------|
-  {chr(10).join([f'| {i+1}. | {c["name"]} | {c["text"]} | {c["percent"]:.1f}% |' for i, c in enumerate(data['categories'][:5])])}
-  
-  ---
-  *Last Updated: {datetime.now().strftime('%B %d, %Y at %H:%M:%S %Z')}*
-  '''
+          ## 📊 Development Analytics
+          
+          > *Comprehensive coding statistics for the past 30 days*
+          
+          ### ⏱️ Time Overview
+          | Metric | Value |
+          |--------|-------|
+          | **Total Time** | {data['human_readable_total']} |
+          | **Daily Average** | {data['human_readable_daily_average']} |
+          | **Days Tracked** | {data['days_including_holidays']} |
+          
+          ### 💻 Editor Usage
+          | Rank | Editor | Time | Percentage |
+          |------|--------|------|------------|
+          '''
+          
+          for i, e in enumerate(data['editors'][:5]):
+              stats += f'| {i+1}. | {e["name"]} | {e["text"]} | {e["percent"]:.1f}% |\n'
+          
+          stats += '''
+          ### 🖥️ Operating Systems
+          | Rank | OS | Time | Percentage |
+          |------|----|------|------------|
+          '''
+          
+          for i, o in enumerate(data['operating_systems'][:5]):
+              stats += f'| {i+1}. | {o["name"]} | {o["text"]} | {o["percent"]:.1f}% |\n'
+          
+          stats += '''
+          ### 📝 Programming Languages
+          | Rank | Language | Time | Percentage |
+          |------|----------|------|------------|
+          '''
+          
+          for i, l in enumerate(data['languages'][:8]):
+              stats += f'| {i+1}. | {l["name"]} | {l["text"]} | {l["percent"]:.1f}% |\n'
+          
+          stats += '''
+          ### 📂 Activity Categories
+          | Rank | Category | Time | Percentage |
+          |------|----------|------|------------|
+          '''
+          
+          for i, c in enumerate(data['categories'][:5]):
+              stats += f'| {i+1}. | {c["name"]} | {c["text"]} | {c["percent"]:.1f}% |\n'
+          
+          stats += f'''
+          ---
+          *Last Updated: {datetime.now().strftime('%B %d, %Y at %H:%M:%S %Z')}*
+          '''
           
           # Read current README
           with open('README.md', 'r') as f:
@@ -99,7 +115,7 @@ jobs:
               f.write(new_readme)
           
           print('README updated successfully with professional statistics!')
-          "
+          EOF
       
       - name: Commit changes
         run: |
