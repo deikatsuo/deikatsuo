@@ -3,7 +3,7 @@ name: Update Wakapi Stats
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 20 * * *'
+    - cron: '0 */2 * * *'
 
 jobs:
   update-readme:
