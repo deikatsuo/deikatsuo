@@ -49,7 +49,7 @@ Here are some ideas to get you started:
 | 3. | Markdown | 0 hrs 26 mins | 0.9% |
 | 4. | TOML | 0 hrs 22 mins | 0.8% |
 | 5. | Shell script | 0 hrs 14 mins | 0.5% |
-| 6. | Nushell | 0 hrs 12 mins | 0.4% |
+| 6. | Nu | 0 hrs 12 mins | 0.4% |
 | 7. | Json | 0 hrs 10 mins | 0.4% |
 | 8. | Bash | 0 hrs 3 mins | 0.1% |
 
@@ -60,5 +60,5 @@ Here are some ideas to get you started:
 | 2. | writing docs | 0 hrs 26 mins | 0.9% |
 
 ---
-*Last Updated: July 06, 2026 at 10:47:45 *
+*Last Updated: July 06, 2026 at 10:53:06 *
 <!-- WAKAPI_STATS_END -->
