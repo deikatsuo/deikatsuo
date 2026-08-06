@@ -25,30 +25,30 @@ Here are some ideas to get you started:
 ### ⏱️ Time Overview
 | Metric | Value |
 |--------|-------|
-| **Total Time** | 114 hrs 38 mins |
-| **Daily Average** | 2 hrs 26 mins |
+| **Total Time** | 116 hrs 18 mins |
+| **Daily Average** | 2 hrs 28 mins |
 | **Days Tracked** | 47 |
 
 ### 💻 Editor Usage
 | Rank | Editor | Time | Percentage |
 |------|--------|------|------------|
-| 1. | Zed | 114 hrs 28 mins | 99.8% |
+| 1. | Zed | 116 hrs 8 mins | 99.9% |
 | 2. | Vscode | 0 hrs 10 mins | 0.1% |
 | 3. | Unknown | 0 hrs 0 mins | 0.0% |
 
 ### 🖥️ Operating Systems
 | Rank | OS | Time | Percentage |
 |------|----|------|------------|
-| 1. | Linux | 114 hrs 38 mins | 100.0% |
+| 1. | Linux | 116 hrs 18 mins | 100.0% |
 
 ### 📝 Programming Languages
 | Rank | Language | Time | Percentage |
 |------|----------|------|------------|
-| 1. | Rust | 100 hrs 14 mins | 87.4% |
-| 2. | SQL | 6 hrs 48 mins | 5.9% |
+| 1. | Rust | 101 hrs 36 mins | 87.4% |
+| 2. | SQL | 6 hrs 48 mins | 5.8% |
 | 3. | Nu | 2 hrs 39 mins | 2.3% |
 | 4. | TOML | 1 hrs 52 mins | 1.6% |
-| 5. | Markdown | 0 hrs 59 mins | 0.8% |
+| 5. | Markdown | 1 hrs 16 mins | 1.1% |
 | 6. | SCSS | 0 hrs 38 mins | 0.6% |
 | 7. | Shell script | 0 hrs 27 mins | 0.4% |
 | 8. | Json | 0 hrs 24 mins | 0.3% |
@@ -56,10 +56,10 @@ Here are some ideas to get you started:
 ### 📂 Activity Categories
 | Rank | Category | Time | Percentage |
 |------|----------|------|------------|
-| 1. | coding | 111 hrs 49 mins | 97.5% |
+| 1. | coding | 113 hrs 11 mins | 97.3% |
 | 2. | writing tests | 1 hrs 51 mins | 1.6% |
-| 3. | writing docs | 0 hrs 59 mins | 0.8% |
+| 3. | writing docs | 1 hrs 16 mins | 1.1% |
 
 ---
-*Last Updated: August 05, 2026 at 22:51:39 *
+*Last Updated: August 06, 2026 at 01:56:41 *
 <!-- WAKAPI_STATS_END -->
