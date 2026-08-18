@@ -25,43 +25,43 @@ Here are some ideas to get you started:
 ### ⏱️ Time Overview
 | Metric | Value |
 |--------|-------|
-| **Total Time** | 165 hrs 58 mins |
-| **Daily Average** | 2 hrs 49 mins |
-| **Days Tracked** | 59 |
+| **Total Time** | 166 hrs 58 mins |
+| **Daily Average** | 2 hrs 47 mins |
+| **Days Tracked** | 60 |
 
 ### 💻 Editor Usage
 | Rank | Editor | Time | Percentage |
 |------|--------|------|------------|
-| 1. | Zed | 165 hrs 7 mins | 99.5% |
-| 2. | Vscode | 0 hrs 35 mins | 0.3% |
-| 3. | Gpt | 0 hrs 15 mins | 0.1% |
+| 1. | Zed | 165 hrs 43 mins | 99.2% |
+| 2. | Gpt | 0 hrs 40 mins | 0.4% |
+| 3. | Vscode | 0 hrs 35 mins | 0.3% |
 | 4. | Unknown | 0 hrs 0 mins | 0.0% |
 
 ### 🖥️ Operating Systems
 | Rank | OS | Time | Percentage |
 |------|----|------|------------|
-| 1. | Linux | 165 hrs 58 mins | 100.0% |
+| 1. | Linux | 166 hrs 58 mins | 100.0% |
 
 ### 📝 Programming Languages
 | Rank | Language | Time | Percentage |
 |------|----------|------|------------|
-| 1. | Rust | 141 hrs 23 mins | 85.2% |
+| 1. | Rust | 141 hrs 57 mins | 85.0% |
 | 2. | SQL | 7 hrs 56 mins | 4.8% |
 | 3. | Markdown | 7 hrs 11 mins | 4.3% |
-| 4. | Nu | 2 hrs 54 mins | 1.8% |
-| 5. | TOML | 2 hrs 9 mins | 1.3% |
+| 4. | Nu | 2 hrs 54 mins | 1.7% |
+| 5. | TOML | 2 hrs 10 mins | 1.3% |
 | 6. | Json | 0 hrs 59 mins | 0.6% |
-| 7. | Shell script | 0 hrs 41 mins | 0.4% |
-| 8. | SCSS | 0 hrs 38 mins | 0.4% |
+| 7. | Unknown | 0 hrs 58 mins | 0.6% |
+| 8. | Shell script | 0 hrs 41 mins | 0.4% |
 
 ### 📂 Activity Categories
 | Rank | Category | Time | Percentage |
 |------|----------|------|------------|
-| 1. | coding | 153 hrs 20 mins | 92.4% |
+| 1. | coding | 153 hrs 31 mins | 91.9% |
 | 2. | writing docs | 7 hrs 10 mins | 4.3% |
-| 3. | writing tests | 4 hrs 38 mins | 2.8% |
-| 4. | ai coding | 0 hrs 50 mins | 0.5% |
+| 3. | writing tests | 4 hrs 57 mins | 3.0% |
+| 4. | ai coding | 1 hrs 20 mins | 0.8% |
 
 ---
-*Last Updated: August 18, 2026 at 08:27:32 *
+*Last Updated: August 18, 2026 at 10:20:12 *
 <!-- WAKAPI_STATS_END -->
