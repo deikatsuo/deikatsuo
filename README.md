@@ -25,14 +25,14 @@ Here are some ideas to get you started:
 ### ⏱️ Time Overview
 | Metric | Value |
 |--------|-------|
-| **Total Time** | 176 hrs 35 mins |
-| **Daily Average** | 2 hrs 51 mins |
+| **Total Time** | 177 hrs 52 mins |
+| **Daily Average** | 2 hrs 52 mins |
 | **Days Tracked** | 62 |
 
 ### 💻 Editor Usage
 | Rank | Editor | Time | Percentage |
 |------|--------|------|------------|
-| 1. | Zed | 171 hrs 47 mins | 97.3% |
+| 1. | Zed | 173 hrs 4 mins | 97.3% |
 | 2. | Gpt | 4 hrs 13 mins | 2.4% |
 | 3. | Vscode | 0 hrs 35 mins | 0.3% |
 | 4. | Unknown | 0 hrs 0 mins | 0.0% |
@@ -40,28 +40,28 @@ Here are some ideas to get you started:
 ### 🖥️ Operating Systems
 | Rank | OS | Time | Percentage |
 |------|----|------|------------|
-| 1. | Linux | 176 hrs 35 mins | 100.0% |
+| 1. | Linux | 177 hrs 52 mins | 100.0% |
 
 ### 📝 Programming Languages
 | Rank | Language | Time | Percentage |
 |------|----------|------|------------|
-| 1. | Rust | 145 hrs 2 mins | 82.1% |
-| 2. | Markdown | 9 hrs 15 mins | 5.2% |
-| 3. | SQL | 8 hrs 16 mins | 4.7% |
-| 4. | Unknown | 4 hrs 31 mins | 2.6% |
-| 5. | Nu | 2 hrs 54 mins | 1.6% |
-| 6. | TOML | 2 hrs 20 mins | 1.3% |
-| 7. | Json | 1 hrs 5 mins | 0.6% |
+| 1. | Rust | 145 hrs 33 mins | 81.8% |
+| 2. | Markdown | 9 hrs 16 mins | 5.2% |
+| 3. | SQL | 8 hrs 34 mins | 4.8% |
+| 4. | Unknown | 4 hrs 31 mins | 2.5% |
+| 5. | Nu | 2 hrs 59 mins | 1.7% |
+| 6. | TOML | 2 hrs 21 mins | 1.3% |
+| 7. | Json | 1 hrs 10 mins | 0.7% |
 | 8. | Shell script | 0 hrs 43 mins | 0.4% |
 
 ### 📂 Activity Categories
 | Rank | Category | Time | Percentage |
 |------|----------|------|------------|
-| 1. | coding | 156 hrs 16 mins | 88.5% |
-| 2. | writing docs | 8 hrs 58 mins | 5.1% |
-| 3. | ai coding | 5 hrs 43 mins | 3.2% |
-| 4. | writing tests | 5 hrs 38 mins | 3.2% |
+| 1. | coding | 157 hrs 22 mins | 88.5% |
+| 2. | writing docs | 8 hrs 59 mins | 5.0% |
+| 3. | writing tests | 5 hrs 48 mins | 3.3% |
+| 4. | ai coding | 5 hrs 43 mins | 3.2% |
 
 ---
-*Last Updated: August 20, 2026 at 12:33:17 *
+*Last Updated: August 20, 2026 at 14:29:05 *
 <!-- WAKAPI_STATS_END -->
