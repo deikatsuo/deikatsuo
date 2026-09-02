@@ -25,14 +25,14 @@ Here are some ideas to get you started:
 ### ⏱️ Time Overview
 | Metric | Value |
 |--------|-------|
-| **Total Time** | 246 hrs 48 mins |
-| **Daily Average** | 3 hrs 20 mins |
+| **Total Time** | 249 hrs 23 mins |
+| **Daily Average** | 3 hrs 22 mins |
 | **Days Tracked** | 74 |
 
 ### 💻 Editor Usage
 | Rank | Editor | Time | Percentage |
 |------|--------|------|------------|
-| 1. | Zed | 241 hrs 57 mins | 98.0% |
+| 1. | Zed | 244 hrs 32 mins | 98.0% |
 | 2. | Gpt | 4 hrs 13 mins | 1.7% |
 | 3. | Vscode | 0 hrs 35 mins | 0.2% |
 | 4. | Codex-vscode | 0 hrs 3 mins | 0.0% |
@@ -41,28 +41,28 @@ Here are some ideas to get you started:
 ### 🖥️ Operating Systems
 | Rank | OS | Time | Percentage |
 |------|----|------|------------|
-| 1. | Linux | 246 hrs 48 mins | 100.0% |
+| 1. | Linux | 249 hrs 24 mins | 100.0% |
 
 ### 📝 Programming Languages
 | Rank | Language | Time | Percentage |
 |------|----------|------|------------|
-| 1. | Rust | 189 hrs 29 mins | 76.8% |
-| 2. | Markdown | 23 hrs 36 mins | 9.6% |
-| 3. | SQL | 9 hrs 44 mins | 3.9% |
-| 4. | TOML | 4 hrs 40 mins | 1.9% |
-| 5. | Unknown | 4 hrs 34 mins | 1.9% |
+| 1. | Rust | 190 hrs 49 mins | 76.5% |
+| 2. | Markdown | 24 hrs 24 mins | 9.8% |
+| 3. | SQL | 9 hrs 57 mins | 4.0% |
+| 4. | TOML | 4 hrs 41 mins | 1.9% |
+| 5. | Unknown | 4 hrs 34 mins | 1.8% |
 | 6. | Nu | 4 hrs 13 mins | 1.7% |
 | 7. | Json | 2 hrs 9 mins | 0.9% |
-| 8. | Shell script | 1 hrs 52 mins | 0.8% |
+| 8. | Shell script | 1 hrs 55 mins | 0.8% |
 
 ### 📂 Activity Categories
 | Rank | Category | Time | Percentage |
 |------|----------|------|------------|
-| 1. | coding | 206 hrs 29 mins | 83.7% |
-| 2. | writing docs | 23 hrs 12 mins | 9.4% |
-| 3. | writing tests | 10 hrs 57 mins | 4.4% |
+| 1. | coding | 208 hrs 9 mins | 83.5% |
+| 2. | writing docs | 23 hrs 59 mins | 9.6% |
+| 3. | writing tests | 11 hrs 4 mins | 4.4% |
 | 4. | ai coding | 6 hrs 11 mins | 2.5% |
 
 ---
-*Last Updated: September 02, 2026 at 02:20:34 *
+*Last Updated: September 02, 2026 at 08:17:42 *
 <!-- WAKAPI_STATS_END -->
