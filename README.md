@@ -25,14 +25,14 @@ Here are some ideas to get you started:
 ### ⏱️ Time Overview
 | Metric | Value |
 |--------|-------|
-| **Total Time** | 249 hrs 23 mins |
+| **Total Time** | 252 hrs 57 mins |
 | **Daily Average** | 3 hrs 22 mins |
-| **Days Tracked** | 74 |
+| **Days Tracked** | 75 |
 
 ### 💻 Editor Usage
 | Rank | Editor | Time | Percentage |
 |------|--------|------|------------|
-| 1. | Zed | 244 hrs 32 mins | 98.0% |
+| 1. | Zed | 248 hrs 6 mins | 98.1% |
 | 2. | Gpt | 4 hrs 13 mins | 1.7% |
 | 3. | Vscode | 0 hrs 35 mins | 0.2% |
 | 4. | Codex-vscode | 0 hrs 3 mins | 0.0% |
@@ -41,28 +41,28 @@ Here are some ideas to get you started:
 ### 🖥️ Operating Systems
 | Rank | OS | Time | Percentage |
 |------|----|------|------------|
-| 1. | Linux | 249 hrs 24 mins | 100.0% |
+| 1. | Linux | 252 hrs 57 mins | 100.0% |
 
 ### 📝 Programming Languages
 | Rank | Language | Time | Percentage |
 |------|----------|------|------------|
-| 1. | Rust | 190 hrs 49 mins | 76.5% |
-| 2. | Markdown | 24 hrs 24 mins | 9.8% |
-| 3. | SQL | 9 hrs 57 mins | 4.0% |
+| 1. | Rust | 192 hrs 50 mins | 76.2% |
+| 2. | Markdown | 25 hrs 31 mins | 10.1% |
+| 3. | SQL | 9 hrs 58 mins | 3.9% |
 | 4. | TOML | 4 hrs 41 mins | 1.9% |
 | 5. | Unknown | 4 hrs 34 mins | 1.8% |
-| 6. | Nu | 4 hrs 13 mins | 1.7% |
-| 7. | Json | 2 hrs 9 mins | 0.9% |
+| 6. | Nu | 4 hrs 25 mins | 1.7% |
+| 7. | Json | 2 hrs 12 mins | 0.9% |
 | 8. | Shell script | 1 hrs 55 mins | 0.8% |
 
 ### 📂 Activity Categories
 | Rank | Category | Time | Percentage |
 |------|----------|------|------------|
-| 1. | coding | 208 hrs 9 mins | 83.5% |
-| 2. | writing docs | 23 hrs 59 mins | 9.6% |
-| 3. | writing tests | 11 hrs 4 mins | 4.4% |
-| 4. | ai coding | 6 hrs 11 mins | 2.5% |
+| 1. | coding | 210 hrs 10 mins | 83.1% |
+| 2. | writing docs | 25 hrs 6 mins | 9.9% |
+| 3. | writing tests | 11 hrs 31 mins | 4.5% |
+| 4. | ai coding | 6 hrs 11 mins | 2.4% |
 
 ---
-*Last Updated: September 02, 2026 at 08:17:42 *
+*Last Updated: September 02, 2026 at 13:59:54 *
 <!-- WAKAPI_STATS_END -->
