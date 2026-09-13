@@ -25,14 +25,14 @@ Here are some ideas to get you started:
 ### ⏱️ Time Overview
 | Metric | Value |
 |--------|-------|
-| **Total Time** | 305 hrs 33 mins |
-| **Daily Average** | 3 hrs 33 mins |
+| **Total Time** | 306 hrs 16 mins |
+| **Daily Average** | 3 hrs 34 mins |
 | **Days Tracked** | 86 |
 
 ### 💻 Editor Usage
 | Rank | Editor | Time | Percentage |
 |------|--------|------|------------|
-| 1. | Zed | 300 hrs 42 mins | 98.4% |
+| 1. | Zed | 301 hrs 25 mins | 98.4% |
 | 2. | Gpt | 4 hrs 13 mins | 1.4% |
 | 3. | Vscode | 0 hrs 35 mins | 0.2% |
 | 4. | Codex-vscode | 0 hrs 3 mins | 0.0% |
@@ -41,28 +41,28 @@ Here are some ideas to get you started:
 ### 🖥️ Operating Systems
 | Rank | OS | Time | Percentage |
 |------|----|------|------------|
-| 1. | Linux | 305 hrs 33 mins | 100.0% |
+| 1. | Linux | 306 hrs 16 mins | 100.0% |
 
 ### 📝 Programming Languages
 | Rank | Language | Time | Percentage |
 |------|----------|------|------------|
-| 1. | Rust | 223 hrs 20 mins | 73.1% |
-| 2. | Markdown | 33 hrs 3 mins | 10.8% |
+| 1. | Rust | 223 hrs 52 mins | 73.1% |
+| 2. | Markdown | 33 hrs 4 mins | 10.8% |
 | 3. | SQL | 10 hrs 28 mins | 3.4% |
-| 4. | TOML | 6 hrs 15 mins | 2.0% |
-| 5. | Json | 6 hrs 12 mins | 2.0% |
+| 4. | Json | 6 hrs 16 mins | 2.0% |
+| 5. | TOML | 6 hrs 15 mins | 2.0% |
 | 6. | Nu | 5 hrs 2 mins | 1.6% |
-| 7. | CSS | 4 hrs 38 mins | 1.5% |
+| 7. | CSS | 4 hrs 45 mins | 1.6% |
 | 8. | Unknown | 4 hrs 34 mins | 1.5% |
 
 ### 📂 Activity Categories
 | Rank | Category | Time | Percentage |
 |------|----------|------|------------|
-| 1. | coding | 254 hrs 4 mins | 83.2% |
+| 1. | coding | 254 hrs 46 mins | 83.2% |
 | 2. | writing docs | 32 hrs 39 mins | 10.7% |
-| 3. | writing tests | 12 hrs 40 mins | 4.2% |
+| 3. | writing tests | 12 hrs 40 mins | 4.1% |
 | 4. | ai coding | 6 hrs 11 mins | 2.0% |
 
 ---
-*Last Updated: September 13, 2026 at 14:00:21 *
+*Last Updated: September 13, 2026 at 18:27:43 *
 <!-- WAKAPI_STATS_END -->
